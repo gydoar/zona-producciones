@@ -150,5 +150,24 @@
 	<div id="clientes_title">
 		<h3>Nuestros clientes lo certifican:</h3>
 	</div>
+	<div class="container">
+		<ul class="ten columns offset-by-one" id="logos">
+			<li><a href=""><img src="<?php bloginfo('template_url' ); ?>/library/img/logo-sgf.jpg" alt=""></a></li>
+			<li><a href=""><img src="<?php bloginfo('template_url' ); ?>/library/img/logo-redes.jpg" alt=""></a></li>
+			<li><a href=""><img src="<?php bloginfo('template_url' ); ?>/library/img/logo-samsung.jpg" alt=""></a></li>
+			<li><a href=""><img src="<?php bloginfo('template_url' ); ?>/library/img/logo-fiber.jpg" alt=""></a></li>
+			<li><a href=""><img src="<?php bloginfo('template_url' ); ?>/library/img/logo-danone.jpg" alt=""></a></li>
+			<li><a href=""><img src="<?php bloginfo('template_url' ); ?>/library/img/logo-policia.jpg" alt=""></a></li>
+		</ul>
+	</div>
+	<div class="container">
+		<ul class="ten columns offset-by-one" id="logos">
+			<li><a href=""><img src="<?php bloginfo('template_url' ); ?>/library/img/logo-activos.jpg" alt=""></a></li>
+			<li><a href=""><img src="<?php bloginfo('template_url' ); ?>/library/img/logo-siemens.jpg" alt=""></a></li>
+			<li><a href=""><img src="<?php bloginfo('template_url' ); ?>/library/img/logo-flota.jpg" alt=""></a></li>
+			<li><a href=""><img src="<?php bloginfo('template_url' ); ?>/library/img/logo-unify.jpg" alt=""></a></li>
+			<li><a href=""><img src="<?php bloginfo('template_url' ); ?>/library/img/logo-pfizer.jpg" alt=""></a></li>
+		</ul>
+	</div>
 </section>
 <?php get_footer(); ?>
