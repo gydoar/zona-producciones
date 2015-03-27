@@ -107,7 +107,7 @@ ul#menu-header li a:hover{
 	text-align: left;
 }
 #catering h3{
-	font-size: 22px;
+	font-size: 20px;
 	margin-top: 100px;
 	text-align: right;
 	color: #79797d;
@@ -140,6 +140,30 @@ ul#number li img{
 ul#number li, ul#number li img{
 	vertical-align: middle;
 	display: inline-block;
+}
+#btl{
+	background: #000000 url(library/img/bg-btl.jpg) no-repeat;
+	height: 689px;
+	background-position: center;
+	position: relative;
+	z-index: 1;
+	text-align: center;
+	color: #ffffff;
+
+}
+#btl h2{
+	margin-bottom: 60px;
+}
+#btl p{
+	font-size: 18px;
+}
+#btl span{
+	border-bottom: 4px solid #ffffff;
+}
+.w400{
+	padding: 200px 0px 150px 0px;
+	max-width: 400px;
+	margin: 0 auto;
 }
 /* Footer */
 footer{

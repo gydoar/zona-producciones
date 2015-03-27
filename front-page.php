@@ -103,5 +103,17 @@
 		</ul>
 	</div>
 </section>
+<!-- /Section Catering -->
+<!-- Section BTL AGENCIA-->
+<section id="btl">
+	<div class="w400">
+		<h2><span>BTL</span> / AGENCIA</h2>
+		<p>Publicidad Interior y Exterior</p>
+		<p>Producción Gráfica</p>
+		<p>Diseño Gráfico</p>
+		<p>Merchandising</p>
+		<p>Fotografía</p>
+	</div>
+</section>
 
 <?php get_footer(); ?>
