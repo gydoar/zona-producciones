@@ -115,5 +115,30 @@
 		<p>Fotografía</p>
 	</div>
 </section>
+<!-- /Section BTL AGENCIA-->
+<!-- Section Portafolio-->
+<section id="portafolio">
+	<div class="container">
+		<div class="title" class="twelve columns">
+			<h2>PORTAFOLIO</h2>
+		</div>
 
+	</div>
+	
+	<div class="">
+		<div id="owl-demo">
+          
+		  <div class="item"><img src="<?php bloginfo('template_url' ); ?>/library/img/portafolio/01.jpg" alt="Owl Image"></div>
+		  <div class="item"><img src="<?php bloginfo('template_url' ); ?>/library/img/portafolio/02.jpg" alt="Owl Image"></div>
+		  <div class="item"><img src="<?php bloginfo('template_url' ); ?>/library/img/portafolio/03.jpg" alt="Owl Image"></div>
+		  <div class="item"><img src="<?php bloginfo('template_url' ); ?>/library/img/portafolio/04.jpg" alt="Owl Image"></div>
+		  <div class="item"><img src="<?php bloginfo('template_url' ); ?>/library/img/portafolio/05.jpg" alt="Owl Image"></div>
+		  <div class="item"><img src="<?php bloginfo('template_url' ); ?>/library/img/portafolio/06.jpg" alt="Owl Image"></div>
+		 
+		</div>	
+
+	</div>
+	
+</section>
+<!-- /Section Portafolio-->
 <?php get_footer(); ?>
