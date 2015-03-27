@@ -138,7 +138,17 @@
 		</div>	
 
 	</div>
-	
+
+	<div class="w400_2">
+		<p>Saber escuchar las ideas de nuestros clientes y adaptarnos a
+		sus necesidades y presupuestos son nuestro compromisos.</p>
+	</div>
 </section>
 <!-- /Section Portafolio-->
+<!-- /Section Clientes-->
+<section id="clientes">
+	<div id="clientes_title">
+		<h3>Nuestros clientes lo certifican:</h3>
+	</div>
+</section>
 <?php get_footer(); ?>
