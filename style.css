@@ -48,6 +48,100 @@ ul#menu-header li a{
 ul#menu-header li a:hover{
 	background: rgba(215,50,40,0.8);
 }
+#sec-2{
+	text-align: center;
+	padding: 90px 0px 50px 0px;
+	font-size: 16px;
+}
+#sec-2 p{
+	line-height: 20px;
+}
+#sec-2 img{
+	border-radius: 25px;
+	box-shadow: 0px 1px 5px gray;
+}
+#w350{
+	max-width: 350px;
+	margin: 0 auto;
+}
+#eventos{
+	background: #e5e5e5;
+	padding: 60px 0;
+}
+.title{
+	
+	border-bottom: 4px solid #d73231;
+	max-width: 200px;
+}
+.title h2{
+	color: #4c4e4e;
+	text-align: right;
+	font-size: 24px;
+	letter-spacing: 0.5px;
+	text-transform: uppercase;
+	margin-bottom: 3px;
+	font-weight: 600;
+}
+
+#galeria-1{
+	margin-top: 50px;
+}
+#galeria-1 h3{
+	font-size: 22px;
+	font-weight: bold;
+	letter-spacing: 0.2px;
+}
+#galeria-1 img{
+	margin-bottom: 30px;
+}
+#galeria-1 p{
+	margin-bottom: 5px;
+}
+.right{
+	text-align: right;
+}
+.center{
+	text-align: center;
+}
+.left{
+	text-align: left;
+}
+#catering h3{
+	font-size: 22px;
+	margin-top: 100px;
+	text-align: right;
+	color: #79797d;
+	font-weight: bold;
+}
+#catering p{
+	text-align: justify;
+	font-weight: normal;
+	line-height: 20px;
+	font-size: 14px;
+}
+#catering img{
+	margin-top: -118px;
+	
+}
+#catering div.title{
+	margin-top: 80px;
+}
+ul#number{
+	text-align: center;
+	padding: 50px 0px;
+}
+ul#number li{
+	margin: 0 15px;
+	display: inline-block;
+}
+ul#number li img{
+	margin-top: 0px;
+}
+ul#number li, ul#number li img{
+	vertical-align: middle;
+	display: inline-block;
+}
+/* Footer */
 footer{
 	text-align: center;
 }
@@ -69,7 +163,27 @@ footer a{
 	@media only screen and (max-width: 767px) {}
 
 	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
-	@media only screen and (min-width: 480px) and (max-width: 767px) {}
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		#catering img{
+			margin-top: 0px;
+		}
+		#catering div.title{
+			margin-top: 30px;
+		}
+		#catering h3{
+			margin-top: 20px;
+		}
+	}
 
 	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
-	@media only screen and (max-width: 479px) {}
+	@media only screen and (max-width: 479px) {
+		#catering img{
+			margin-top: 0px;
+		}
+		#catering div.title{
+			margin-top: 30px;
+		}
+		#catering h3{
+			margin-top: 20px;
+		}
+	}
