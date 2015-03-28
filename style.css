@@ -182,6 +182,9 @@ ul#number li, ul#number li img{
 	text-align: center;
 	font-size: 16px;
 }
+#clientes{
+	margin-bottom: 40px;
+}
 #clientes_title{
 	max-width: 400px;
 	background: #ffffff;
@@ -205,6 +208,18 @@ ul#logos li{
 	margin: 0px 11px;
 	vertical-align: middle;
 
+}
+#contactenos{
+	text-align: center;
+	background: #464747;
+	height: 200px;
+
+}
+h3#caja-cont{
+	position: relative;
+	padding: 10px;	
+	margin-top: -40px;
+	border: 1px solid #464747;
 }
 /* Footer */
 footer{

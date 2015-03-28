@@ -145,7 +145,7 @@
 	</div>
 </section>
 <!-- /Section Portafolio-->
-<!-- /Section Clientes-->
+<!-- Section Clientes-->
 <section id="clientes">
 	<div id="clientes_title">
 		<h3>Nuestros clientes lo certifican:</h3>
@@ -168,6 +168,13 @@
 			<li><a href=""><img src="<?php bloginfo('template_url' ); ?>/library/img/logo-unify.jpg" alt=""></a></li>
 			<li><a href=""><img src="<?php bloginfo('template_url' ); ?>/library/img/logo-pfizer.jpg" alt=""></a></li>
 		</ul>
+	</div>
+</section>
+<!-- /Section Clientes-->
+
+<section id="contactenos">
+	<div class="container">
+		<h3 id="caja-cont">CONTACTENOS</h3>
 	</div>
 </section>
 <?php get_footer(); ?>
