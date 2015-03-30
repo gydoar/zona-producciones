@@ -232,6 +232,18 @@ ul#logos li{
 	height: 70px;
 	color: #ffffff;
 }
+#text-contact{
+	background: #f5f5f7;
+	height: 100%;
+	color: #000000;
+	padding: 50px 0px;
+}
+ul#icon-social{
+	text-align: center;
+}
+ul#icon-social li{
+	display: inline-block;
+}
 /* Footer */
 footer{
 	text-align: center;
