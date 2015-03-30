@@ -247,7 +247,7 @@ ul#logos li{
 }
 ul#icon-social{
 	text-align: center;
-	margin-top: 40px;
+	margin: 0px;
 }
 ul#icon-social li{
 	display: inline-block;
@@ -255,11 +255,19 @@ ul#icon-social li{
 
 /* Footer */
 footer{
+	padding: 15px 0px;
 	text-align: center;
+	background: #000000;
+	color: #ffffff;
+	font-size: 0.8em;
+}
+footer p{
+	margin: 0px;
 }
 footer a{
 	text-decoration: none;
 	color: #000000;
+	color: #ffffff;
 }
 
 #owl-demo .item{
