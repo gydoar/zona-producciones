@@ -361,6 +361,7 @@ form {
 
 textarea{
   vertical-align: top;
+  height: 100px;
 }
 /* Utilities
 –––––––––––––––––––––––––––––––––––––––––––––––––– */

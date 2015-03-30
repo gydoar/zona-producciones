@@ -235,15 +235,24 @@ ul#logos li{
 #text-contact{
 	background: #f5f5f7;
 	height: 100%;
-	color: #000000;
+	color: #4c4e4e;
 	padding: 50px 0px;
+}
+#text-contact p, #text-contact p img{
+	vertical-align: middle;
+}
+#text-contact p a{
+	text-decoration: none;
+	color: #4c4e4e;
 }
 ul#icon-social{
 	text-align: center;
+	margin-top: 40px;
 }
 ul#icon-social li{
 	display: inline-block;
 }
+
 /* Footer */
 footer{
 	text-align: center;
