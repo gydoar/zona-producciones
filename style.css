@@ -45,7 +45,7 @@ ul#menu-header li a{
 	padding: 10px 20px 10px 20px;
 	background: rgba(0,0,0,0.5);
 }
-ul#menu-header li a:hover{
+ul#menu-header li a:hover, ul#menu-header li a:focus, ul#menu-header li a:active{
 	background: rgba(215,50,40,0.8);
 }
 #sec-2{
@@ -212,14 +212,25 @@ ul#logos li{
 #contactenos{
 	text-align: center;
 	background: #464747;
-	height: 200px;
+	height: 100%;
 
 }
-h3#caja-cont{
-	position: relative;
-	padding: 10px;	
+#caja-cont{
+	max-width: 400px;
+	background: #ffffff;
+	padding: 10px 20px;
 	margin-top: -40px;
+	text-align: center;
+	margin: 0 auto;
 	border: 1px solid #464747;
+
+}
+#caja-cont h2{
+	font-size: 16px;
+}
+.form-group{
+	height: 70px;
+	color: #ffffff;
 }
 /* Footer */
 footer{

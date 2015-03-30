@@ -17,6 +17,7 @@
 <!--/ script -->
 
 <!-- Scripts Adiconales -->
+<!-- Efectos scroll menu -->
 <script>
 	$(document).on("ready", main);
 
