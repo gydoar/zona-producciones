@@ -233,7 +233,8 @@ ul#logos li{
 	color: #ffffff;
 }
 #text-contact{
-	background: #f5f5f7;
+	background: #f5f5f7 url(library/img/mapa-zona.png) no-repeat;
+	background-position: center;
 	height: 100%;
 	color: #4c4e4e;
 	padding: 50px 0px;
