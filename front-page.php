@@ -14,10 +14,10 @@
 	
 	<div class="container">
 		<ul id="menu-header" class="eight columns offset-by-two">
-			<li><a href="">EVENTOS</a></li>
-			<li><a href="">CATERING</a></li>
-			<li><a href="">BTL / AGENCIA</a></li>
-			<li><a href="">CONTACTO</a></li>
+			<li><a href="#eventos">EVENTOS</a></li>
+			<li><a href="#catering">CATERING</a></li>
+			<li><a href="#btl">BTL / AGENCIA</a></li>
+			<li><a href="#contactenos">CONTACTO</a></li>
 		</ul>
 	</div>
 </section>
