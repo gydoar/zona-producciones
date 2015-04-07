@@ -33,6 +33,7 @@
 
 	<link rel="stylesheet" href="<?php bloginfo('template_url' ); ?>/library/css/owl-carousel.css">
 	<link rel="stylesheet" href="<?php bloginfo('template_url' ); ?>/library/css/owl-theme.css">
+	<link rel="stylesheet" href="<?php bloginfo('template_url' ); ?>/library/css/least.min.css">
 	
 	<!--/ css adicionales -->
 

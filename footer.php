@@ -27,12 +27,22 @@
 
 <!-- script -->
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="http://code.jquery.com/jquery-2.1.3.js"></script>
 <script src="<?php bloginfo('template_url' ); ?>/library/js/modernizr-custom-min.js"></script>
+<script src="<?php bloginfo('template_url' ); ?>/library/js/least.min.js"></script>
 
 <!--/ script -->
 
 <!-- Scripts Adiconales -->
+
+<!-- Efecto gallery -->
+<script>
+ $(document).ready(function(){
+                $('.least-gallery').least();
+            });
+</script>
+<!-- /Efecto gallery -->
+
 <!-- Efectos scroll menu -->
 <script>
 	$(document).on("ready", main);
