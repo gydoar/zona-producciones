@@ -4,7 +4,16 @@ Theme Name: Zona producciones
 Theme URI: http://suwwweb.com
 Author: the WordPress team
 */
-
+header{
+	background: #000000 url(library/img/header-bg.jpg) no-repeat;
+	height: 200px;
+	background-position: center;
+	position: relative;
+	z-index: 1;
+}
+#logo-header{
+	margin-top: 40px;
+}
 #sec-1{
 	background: #000000 url(library/img/bg-header.jpg) no-repeat;
 	height: 100%;

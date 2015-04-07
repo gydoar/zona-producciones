@@ -2,7 +2,7 @@
 /**
  * Contact
  *
-   Template Name:  Contact Page
+   Template Name:  Page inicio
  *
  * @file           template-contact.php
  * @package        StanleyWP 
@@ -262,6 +262,9 @@
 			<li><a href=""><img src="<?php bloginfo('template_url' ); ?>/library/img/logo-unify.jpg" alt=""></a></li>
 			<li><a href=""><img src="<?php bloginfo('template_url' ); ?>/library/img/logo-pfizer.jpg" alt=""></a></li>
 		</ul>
+	</div>
+	<div class="container">
+		<p>OPERACIÓN NACIONAL: Bucaramanga - Cali - Medellín - Pereira - Cartagena - Colombia</p>
 	</div>
 </section>
 <!-- /Section Clientes-->
