@@ -73,7 +73,13 @@ ul#menu-header li a:hover, ul#menu-header li a:focus, ul#menu-header li a:active
 	border-bottom: 4px solid #d73231;
 	max-width: 200px;
 }
-.title h2{
+.title1{
+	border-bottom: 4px solid #d73231;
+	max-width: 400px;
+	padding-top: 50px;
+}
+
+.title h2, .title1 h2{
 	color: #4c4e4e;
 	text-align: right;
 	font-size: 24px;
@@ -145,14 +151,13 @@ ul#number li, ul#number li img{
 	display: inline-block;
 }
 #btl{
-	background: #000000 url(library/img/bg-btl.jpg) no-repeat;
+	background: #F5F5F7 url(library/img/bg-btl.jpg) no-repeat;
 	height: 689px;
 	background-position: center;
 	position: relative;
 	z-index: 1;
 	text-align: center;
 	color: #ffffff;
-
 }
 #btl h2{
 	margin-bottom: 60px;
@@ -179,23 +184,25 @@ ul#number li, ul#number li img{
 	margin-bottom: 60px;
 }
 .w400_2{
-	padding: 40px 0px;
-	max-width: 400px;
+	padding: 10px 0px 10px 0px;
+	max-width: 600px;
 	margin: 0 auto;
 	text-align: center;
 	font-size: 16px;
 }
 #clientes{
 	margin-bottom: 40px;
+	text-align: center;
 }
 #clientes_title{
+	border-top: 3px solid #d73231;
 	max-width: 400px;
 	background: #ffffff;
 	margin: 0 auto;
 	padding: 10px 20px;
 	margin-top: -40px;
 	text-align: center;
-	margin-bottom: 40px;
+	margin-bottom: 20px;
 }
 #clientes_title h3{
 	font-size: 18px;
@@ -261,10 +268,10 @@ a.bottom-serv{
 	text-decoration: none;
 	color: #ffffff;
 	padding: 10px 40px;
-	box-shadow: 0px 1px 5px gray;
 }
 a.bottom-serv:hover{
 	background-color: #ad3531;
+	box-shadow: 0px 1px 5px gray;
 }
 a.bottom-port{
 	background-color: #ffffff;
@@ -272,6 +279,13 @@ a.bottom-port{
 	padding: 10px 40px;
 	color: #172047;
 	font-size: 18px;
+}
+a.bottom-port:hover{
+	box-shadow: 0px 1px 5px #ffffff;
+}
+.btg{
+	margin-top: 50px;
+	margin-bottom: 70px;
 }
 /* Footer */
 footer{

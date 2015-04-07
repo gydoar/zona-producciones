@@ -197,13 +197,14 @@
 <!-- Section Portafolio-->
 <section id="portafolio">
 	<div class="container">
-		<div class="title" class="twelve columns">
+		<div class="title1" class="twelve columns">
 			<h2>PROYECTOS REALIZADOS</h2>
 		</div>
 
 	</div>
 	
-	<div class="">
+	<div class="row">
+
 		<div id="owl-demo">
           
 		  <div class="item"><img src="<?php bloginfo('template_url' ); ?>/library/img/portafolio/01.jpg" alt="Owl Image"></div>
@@ -213,20 +214,35 @@
 		  <div class="item"><img src="<?php bloginfo('template_url' ); ?>/library/img/portafolio/05.jpg" alt="Owl Image"></div>
 		  <div class="item"><img src="<?php bloginfo('template_url' ); ?>/library/img/portafolio/06.jpg" alt="Owl Image"></div>
 		 
-		</div>	
+		</div>
+	
+		<div id="owl-demo1">
+          
+		  <div class="item"><img src="<?php bloginfo('template_url' ); ?>/library/img/portafolio/01.jpg" alt="Owl Image"></div>
+		  <div class="item"><img src="<?php bloginfo('template_url' ); ?>/library/img/portafolio/02.jpg" alt="Owl Image"></div>
+		  <div class="item"><img src="<?php bloginfo('template_url' ); ?>/library/img/portafolio/03.jpg" alt="Owl Image"></div>
+		  <div class="item"><img src="<?php bloginfo('template_url' ); ?>/library/img/portafolio/04.jpg" alt="Owl Image"></div>
+		  <div class="item"><img src="<?php bloginfo('template_url' ); ?>/library/img/portafolio/05.jpg" alt="Owl Image"></div>
+		  <div class="item"><img src="<?php bloginfo('template_url' ); ?>/library/img/portafolio/06.jpg" alt="Owl Image"></div>
+		 
+		</div>
 
 	</div>
 
-	<div class="w400_2">
-		<p>Saber escuchar las ideas de nuestros clientes y adaptarnos a
-		sus necesidades y presupuestos son nuestro compromisos.</p>
+	<div class="container center btg">
+		<a class="bottom-serv" href="#">Galeria</a>
 	</div>
+
 </section>
 <!-- /Section Portafolio-->
 <!-- Section Clientes-->
 <section id="clientes">
 	<div id="clientes_title">
 		<h3>Nuestros clientes lo certifican:</h3>
+	</div>
+	<div class="w400_2">
+		<p>Saber escuchar las ideas de nuestros clientes y adaptarnos a
+		sus necesidades y presupuestos son nuestro compromisos.</p>
 	</div>
 	<div class="container">
 		<ul class="ten columns offset-by-one" id="logos">
