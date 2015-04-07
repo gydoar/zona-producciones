@@ -62,6 +62,9 @@ ul#menu-header li a:hover, ul#menu-header li a:focus, ul#menu-header li a:active
 	background:#000000;
 	padding: 10px 0px;
 }
+ul#menu-header2{
+	margin-bottom: 0px;
+}
 ul#menu-header2 li{
 	display: inline-block;
 	margin: 0px;
@@ -315,6 +318,9 @@ a.bottom-port:hover{
 }
 .btn-cont-hedr{
 	margin-top: -20px;
+}
+#sub-header{
+	background-color: #f5f5f7;
 }
 /* Footer */
 footer{
