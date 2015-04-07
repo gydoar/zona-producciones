@@ -357,23 +357,5 @@
 		</div>
 	</div>
 </section>
-<!-- /Section Contactenos-->
-<section id="text-contact">
-	<div class="container">
-		<div class="four columns offset-by-two">
-			<p><img width="44" src="<?php bloginfo('template_url' ); ?>/library/img/icon-map.png" alt="">&nbsp;&nbsp;Cra. 73 No. 53A - 29 Bogotá </p>
-
-			<p><img width="45" src="<?php bloginfo('template_url' ); ?>/library/img/icon-mail.png" alt="">&nbsp;&nbsp;<a href="mailto:info@zonaproducciones.com">info@zonaproducciones.com</a></p>
-		</div>
-		<div class="five columns offset-by-one">
-			<p><img width="26" src="<?php bloginfo('template_url' ); ?>/library/img/icon-movil.png" alt="">&nbsp;&nbsp;312 5375665 - 540 0920</p>
-			<ul id="icon-social">
-				<li><a target="_blank" href="#"><img width="122" src="<?php bloginfo('template_url' ); ?>/library/img/icon-youtube.png" alt="youtube"></a></li>
-				<li><a target="_blank" href="#"><img width="122" src="<?php bloginfo('template_url' ); ?>/library/img/icon-facebook.png" alt="facebook"></a></li>
-				<li><a target="_blank" href="#"><img width="122" src="<?php bloginfo('template_url' ); ?>/library/img/icon-twitter.png" alt="twitter"></a></li>
-			</ul>
-		</div>
-	</div>
-</section>
 
 <?php get_footer(); ?>

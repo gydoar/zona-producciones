@@ -42,7 +42,7 @@ header{
 #menu-header{
 	margin-top: 130px;
 }
-ul#menu-header li{
+ul#menu-header li {
 	display: inline-block;
 	margin:0px 10px;
 }
@@ -55,6 +55,23 @@ ul#menu-header li a{
 	background: rgba(0,0,0,0.5);
 }
 ul#menu-header li a:hover, ul#menu-header li a:focus, ul#menu-header li a:active{
+	background: rgba(215,50,40,0.8);
+}
+#menu-header2{
+	border-top: 3px solid #c22d2c;
+	background:#000000;
+	padding: 10px 0px;
+}
+ul#menu-header2 li{
+	display: inline-block;
+	margin: 0px;
+}
+ul#menu-header2 li a{
+	text-decoration: none;
+	color: #ffffff;
+	padding: 20px 20px 14px 20px;
+}
+ul#menu-header2 li a:hover, ul#menu-header2 li a:focus, ul#menu-header2 li a:active{
 	background: rgba(215,50,40,0.8);
 }
 #sec-2{
@@ -295,6 +312,9 @@ a.bottom-port:hover{
 .btg{
 	margin-top: 50px;
 	margin-bottom: 70px;
+}
+.btn-cont-hedr{
+	margin-top: -20px;
 }
 /* Footer */
 footer{
