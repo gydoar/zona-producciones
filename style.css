@@ -271,6 +271,7 @@ ul#logos li{
 	color: #ffffff;
 }
 #text-contact{
+	border-top: 3px solid #d73231;
 	background: #f5f5f7 url(library/img/mapa-zona.png) no-repeat;
 	background-position: center;
 	color: #4c4e4e;
@@ -324,6 +325,7 @@ a.bottom-port:hover{
 ul#list__sub li{
 	display: inline-block;
 	margin: 0px 20px;
+	padding: 5px 0px;
 }
 ul#list__sub li, ul#list__sub li img{
 	vertical-align: middle;

@@ -28,21 +28,21 @@
                 <!-- 1 || Element with data-caption ||-->
                 <li>
                     <a href="<?php bloginfo('template_url' ); ?>/library/img/portafolio/01.jpg" title="Skateboard" data-subtitle="View Picture" data-caption="<strong>Bold text</strong> normal caption text">
-                        <img src="<?php bloginfo('template_url' ); ?>/library/img/portafolio/01.jpg" alt="Alt Image Text" />
+                        <img src="<?php bloginfo('template_url' ); ?>/library/img/portafolio/01.png" alt="Alt Image Text" />
                     </a>
                 </li>
                 
                 <!-- 2 || Element with data-caption as href-attribute ||-->-->
                 <li>
                     <a href="<?php bloginfo('template_url' ); ?>/library/img/portafolio/02.jpg" title="Train Rails" data-subtitle="View Picture" data-caption="Now it's possibe to add an URL-Link into caption text - <a href='http://www.google.com' target='_blank'>GOOGLE</a>">
-                        <img src="<?php bloginfo('template_url' ); ?>/library/img/portafolio/02.jpg" alt="Alt Image Text" />
+                        <img src="<?php bloginfo('template_url' ); ?>/library/img/portafolio/02.png" alt="Alt Image Text" />
                     </a>
                 </li>
                 
                 <!-- 3 -->
                 <li>
                     <a href="<?php bloginfo('template_url' ); ?>/library/img/portafolio/03.jpg" title="Apple" data-subtitle="View Picture">
-                        <img src="<?php bloginfo('template_url' ); ?>/library/img/portafolio/03.jpg" alt="Alt Image Text" />
+                        <img src="<?php bloginfo('template_url' ); ?>/library/img/portafolio/03.png" alt="Alt Image Text" />
                     </a>
                 </li>
 
