@@ -107,7 +107,7 @@
 		<div class="title" class="twelve columns">
 			<h2>EVENTOS</h2>
 		</div>
-
+			
 			<div id="galeria-1" class="right">
 				<div class="four columns">
 					<img class="twelve columns" src="<?php bloginfo('template_url' ); ?>/library/img/eventos-1.png" alt="">
@@ -116,6 +116,8 @@
 					<p>- Lanzamientos y Activaciones.</p>
 					<p>- Actividades de Bienestar.</p>
 					<p>- Fiestas de fin de año.</p>
+					<br>
+					<a class="bottom-serv" href="#">Servicio</a>
 				</div>
 			</div>
 
@@ -125,9 +127,10 @@
 					<h3>Recreativos</h3>
 					<p>- Vacaciones Recreativas.</p>
 					<p>- Programas para adultos.</p>
-					<p>- Inflables y Atracciones.</p>
 					<p>- Programas para niños.</p>
 					<p>- Show´s Temáticos.</p>
+					<br>
+					<a class="bottom-serv" href="#">Servicio</a>
 				</div>
 			</div>
 
@@ -135,9 +138,12 @@
 				<div class="four columns">
 					<img class="twelve columns" src="<?php bloginfo('template_url' ); ?>/library/img/eventos-3.png" alt="">
 					<h3>Montajes</h3>
-					<p>- Sonido.</p>
-					<p>- Iluminación.</p>
-					<p>- Video.</p>
+					<p>- Amplificación de sonido: voz y audio</p>
+					<p>- Alquiler de iluminación profesional.</p>
+					<p>- Dj con consola de sonido</p>
+					<p>- Ambientación temática </p>
+					<br>
+					<a class="bottom-serv" href="#">Servicio</a>
 				</div>
 			</div>
 	</div>
@@ -156,6 +162,7 @@
 		<div class="four columns">
 			<h3>Alimentos y bebidas</h3>
 			<p>Hemos participado, de manera particular y profesional, en la satisfacción completa de nuestros clientes, ofreciéndoles todas las soluciones disponibles.</p>
+			<a class="bottom-serv" href="#">Servicio</a>
 		</div>
 
 		<div class="eight columns">
@@ -182,6 +189,8 @@
 		<p>Diseño Gráfico</p>
 		<p>Merchandising</p>
 		<p>Fotografía</p>
+		<br>
+		<a class="bottom-port" href="#">Portafolio</a>
 	</div>
 </section>
 <!-- /Section BTL AGENCIA-->
@@ -189,7 +198,7 @@
 <section id="portafolio">
 	<div class="container">
 		<div class="title" class="twelve columns">
-			<h2>PORTAFOLIO</h2>
+			<h2>PROYECTOS REALIZADOS</h2>
 		</div>
 
 	</div>

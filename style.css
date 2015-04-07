@@ -123,6 +123,9 @@ ul#menu-header li a:hover, ul#menu-header li a:focus, ul#menu-header li a:active
 	margin-top: -118px;
 	
 }
+#catering a {
+	float: right;
+}
 #catering div.title{
 	margin-top: 80px;
 }
@@ -253,7 +256,23 @@ ul#icon-social{
 ul#icon-social li{
 	display: inline-block;
 }
-
+a.bottom-serv{
+	background-color: #d73231;
+	text-decoration: none;
+	color: #ffffff;
+	padding: 10px 40px;
+	box-shadow: 0px 1px 5px gray;
+}
+a.bottom-serv:hover{
+	background-color: #ad3531;
+}
+a.bottom-port{
+	background-color: #ffffff;
+	text-decoration: none;
+	padding: 10px 40px;
+	color: #172047;
+	font-size: 18px;
+}
 /* Footer */
 footer{
 	padding: 15px 0px;
