@@ -72,7 +72,7 @@
 <!-- Header -->
 <section id="sec-1">
 	<div class="container">
-		<a id="logo" class="three columns offset-by-one" href="#"><img width="218" src="<?php bloginfo('template_url' ); ?>/library/img/logo.png" alt=""></a>
+		<a id="logo" class="three columns offset-by-one" href="<?php echo home_url('/' ); ?>"><img width="218" src="<?php bloginfo('template_url' ); ?>/library/img/logo.png" alt=""></a>
 	</div>
 
 	<div class="container">
@@ -81,7 +81,7 @@
 		</div>
 	</div>
 	
-	<div class="container">
+	<div id="menu-contenedor" class="container">
 		<ul id="menu-header" class="eight columns offset-by-two">
 			<li><a href="#eventos">EVENTOS</a></li>
 			<li><a href="#catering">CATERING</a></li>

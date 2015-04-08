@@ -4,6 +4,12 @@ Theme Name: Zona producciones
 Theme URI: http://suwwweb.com
 Author: the WordPress team
 */
+.menu-fijo {
+    position: fixed;
+    top: 0;
+    width: 900px;
+    margin-top: -130px;
+}
 header{
 	background: #000000 url(library/img/header-bg.jpg) no-repeat;
 	height: 200px;
@@ -16,7 +22,7 @@ header{
 }
 #sec-1{
 	background: #000000 url(library/img/bg-header.jpg) no-repeat;
-	height: 100%;
+	height:auto;
 	background-position: center;
 	position: relative;
 	z-index: 1;
@@ -89,6 +95,19 @@ ul#menu-header2 li ul{
 ul#menu-header2 li ul li a{
 	margin-top: 20px;
 	background: rgba(215,50,40,0.8);
+	transition: all 0.7s ease;
+		-webkit-transition: all 0.7s ease;
+			-o-transition: all 0.7s ease;
+				-moz-transition: all 0.7s ease;
+					-mz-transition: all 0.7s ease;
+}
+ul#menu-header2 li ul li a:hover{
+	background: rgb(215,50,40);
+	transition: all 0.7s ease;
+	-webkit-transition: all 0.7s ease;
+			-o-transition: all 0.7s ease;
+				-moz-transition: all 0.7s ease;
+					-mz-transition: all 0.7s ease;
 }
 ul#menu-header2 li:hover > ul{
 	display:block;
@@ -207,7 +226,7 @@ ul#number li, ul#number li img{
 	height: 689px;
 	background-position: center;
 	position: relative;
-	z-index: 1;
+	
 	text-align: center;
 	color: #ffffff;
 }
