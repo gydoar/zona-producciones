@@ -54,9 +54,15 @@
 	</header>
 
 		<ul id="menu-header2" class="center">
-			<li><a href="#eventos">INICIO</a></li>
-			<li><a href="#eventos">EVENTOS</a></li>
-			<li><a href="#catering">CATERING</a></li>
-			<li><a href="#btl">BTL / AGENCIA</a></li>
-			<li><a href="#contactenos">PROYECTOS</a></li>
+			<li><a href="<?php echo home_url('/') ?>">INICIO</a></li>
+			<li><a href="<?php echo home_url('/eventos') ?>">EVENTOS</a>
+				<ul>
+					<li><a href="<?php echo home_url('/eventos') ?>">EMPRESARIALES</a></li>
+					<li><a href="<?php echo home_url('/alquiler-de-equipos') ?>">ALQUILER DE EQUIPOS</a></li>
+					<li><a href="<?php echo home_url('/eventos-sociales-y-recreativos') ?>">SOCIALES Y RECREATIVOS</a></li>
+				</ul>
+			</li>
+			<li><a href="<?php echo home_url('/catering') ?>">CATERING</a></li>
+			<li><a href="<?php echo home_url('/btl-agencia') ?>">BTL / AGENCIA</a></li>
+			<li><a href="<?php echo home_url('/proyectos') ?>">PROYECTOS</a></li>
 		</ul>
