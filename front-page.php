@@ -82,10 +82,11 @@
 	</div>
 	
 	<div id="menu-contenedor" class="container">
-		<ul id="menu-header" class="eight columns offset-by-two">
+		<ul id="menu-header">
 			<li><a href="#eventos">EVENTOS</a></li>
 			<li><a href="#catering">CATERING</a></li>
 			<li><a href="#btl">BTL / AGENCIA</a></li>
+			<li><a href="#portafolio">PROYECTOS</a></li>
 			<li><a href="#contactenos">CONTACTO</a></li>
 		</ul>
 	</div>

@@ -5,12 +5,16 @@ Theme URI: http://suwwweb.com
 Author: the WordPress team
 */
 
+/*
 .menu-fijo {
     position: fixed;
-    top: 0;
-    width: 900px;
+    top:-120px;
+    width: 100%;
     margin-top: -130px;
+    
 }
+*/
+
 header{
 	background: #000000 url(library/img/header-bg.jpg) no-repeat;
 	min-height: 200px;
@@ -69,10 +73,11 @@ header{
 }
 #menu-header{
 	margin-top: 130px;
+	text-align: center;
 }
 ul#menu-header li {
 	display: inline-block;
-	margin:0px 10px;
+	margin:0px 5px;
 }
 ul#menu-header li a{
 	text-decoration: none;
@@ -323,20 +328,24 @@ ul#logos li{
 #contactenos{
 	text-align: center;
 	background: #464747;
+	padding-top: 40px;
 
 }
 #caja-cont{
+
 	max-width: 400px;
-	background: #ffffff;
+	color: #ffffff;
 	padding: 10px 20px;
 	margin-top: -40px;
 	text-align: center;
 	margin: 0 auto;
-	border: 1px solid #464747;
 
 }
 #caja-cont h2{
-	font-size: 16px;
+	letter-spacing: 1px;
+	font-size: 22px;
+	font-weight: bold;
+	margin-bottom: 20px;
 }
 .form-group{
 	height: 70px;
@@ -446,10 +455,18 @@ footer a{
 	@media only screen and (max-width: 959px) {}
 
 	/* Tablet Portrait size to standard 960 (devices and browsers) */
-	@media only screen and (min-width: 768px) and (max-width: 959px) {}
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+		ul#menu-header li{
+			margin-bottom: 20px;
+		}
+	}
 
 	/* All Mobile Sizes (devices and browser) */
-	@media only screen and (max-width: 767px) {}
+	@media only screen and (max-width: 767px) {
+		ul#menu-header li{
+			margin-bottom: 20px;
+		}
+	}
 
 	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 	@media only screen and (min-width: 480px) and (max-width: 767px) {
@@ -461,6 +478,15 @@ footer a{
 		}
 		#catering h3{
 			margin-top: 20px;
+		}
+		ul#menu-header li {
+			margin-bottom: 20px;
+		}
+		#sec-1{
+			text-align: center;
+		}
+		.form-group{
+			text-align: center;
 		}
 	}
 
@@ -474,5 +500,28 @@ footer a{
 		}
 		#catering h3{
 			margin-top: 20px;
+		}
+		ul#menu-header li {
+			display: block;
+			margin-bottom: 20px;
+		}
+		ul#menu-header2 li{
+			display: block;
+			margin-bottom: 20px;
+		}
+		header{
+			text-align: center;
+		}
+		#sec-1{
+			text-align: center;
+		}
+		#galeria-1{
+			margin-bottom: 40px;
+		}
+		.form-group{
+			text-align: center;
+		}
+		.btn-cont-hedr{
+			display: none;
 		}
 	}
