@@ -10,7 +10,7 @@
 			<p><img width="26" src="<?php bloginfo('template_url' ); ?>/library/img/icon-movil.png" alt="">&nbsp;&nbsp;312 5375665 - 540 0920</p>
 			<ul id="icon-social">
 				<li><a target="_blank" href="#"><img width="122" src="<?php bloginfo('template_url' ); ?>/library/img/icon-youtube.png" alt="youtube"></a></li>
-				<li><a target="_blank" href="#"><img width="122" src="<?php bloginfo('template_url' ); ?>/library/img/icon-facebook.png" alt="facebook"></a></li>
+				<li><a target="_blank" href="https://www.facebook.com/ZONAPRODUCCIONESYEVENTOS"><img width="122" src="<?php bloginfo('template_url' ); ?>/library/img/icon-facebook.png" alt="facebook"></a></li>
 				<li><a target="_blank" href="#"><img width="122" src="<?php bloginfo('template_url' ); ?>/library/img/icon-twitter.png" alt="twitter"></a></li>
 			</ul>
 		</div>

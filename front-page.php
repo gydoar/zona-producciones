@@ -117,7 +117,7 @@
 					<p>- Actividades de Bienestar.</p>
 					<p>- Fiestas de fin de año.</p>
 					<br>
-					<a class="bottom-serv" href="#">Servicio</a>
+					<a class="bottom-serv" href="<?php echo home_url('/eventos') ?>">Servicio</a>
 				</div>
 			</div>
 
@@ -130,7 +130,7 @@
 					<p>- Programas para niños.</p>
 					<p>- Show´s Temáticos.</p>
 					<br>
-					<a class="bottom-serv" href="#">Servicio</a>
+					<a class="bottom-serv" href="<?php echo home_url('/eventos-sociales-y-recreativos') ?>">Servicio</a>
 				</div>
 			</div>
 
@@ -143,7 +143,7 @@
 					<p>- Dj con consola de sonido</p>
 					<p>- Ambientación temática </p>
 					<br>
-					<a class="bottom-serv" href="#">Servicio</a>
+					<a class="bottom-serv" href="<?php echo home_url('/alquiler-de-equipos') ?>">Servicio</a>
 				</div>
 			</div>
 	</div>
@@ -162,7 +162,7 @@
 		<div class="four columns">
 			<h3>Alimentos y bebidas</h3>
 			<p>Hemos participado, de manera particular y profesional, en la satisfacción completa de nuestros clientes, ofreciéndoles todas las soluciones disponibles.</p>
-			<a class="bottom-serv" href="#">Servicio</a>
+			<a class="bottom-serv" href="<?php echo home_url('/catering') ?>">Servicio</a>
 		</div>
 
 		<div class="eight columns">
@@ -190,7 +190,7 @@
 		<p>Merchandising</p>
 		<p>Fotografía</p>
 		<br>
-		<a class="bottom-port" href="#">Portafolio</a>
+		<a class="bottom-port" href="<?php echo home_url('/btl-agencia') ?>">Portafolio</a>
 	</div>
 </section>
 <!-- /Section BTL AGENCIA-->
@@ -215,70 +215,70 @@
             <ul class="least-gallery">
                 <!-- 1 || Element with data-caption ||-->
                 <li>
-                    <a href="<?php bloginfo('template_url' ); ?>/library/img/portafolio/inicio/01.png" title="Skateboard" data-subtitle="View Picture" data-caption="<strong>Bold text</strong> normal caption text">
+                    <a href="<?php bloginfo('template_url' ); ?>/library/img/portafolio/inicio/01-big.png" title="1" data-subtitle="Ver imagen" data-caption="<strong>Bold text</strong> normal caption text">
                         <img src="<?php bloginfo('template_url' ); ?>/library/img/portafolio/inicio/01.png" alt="Alt Image Text" />
                     </a>
                 </li>
                 
                 <!-- 2 || Element with data-caption as href-attribute ||-->-->
                 <li>
-                    <a href="<?php bloginfo('template_url' ); ?>/library/img/portafolio/02.jpg" title="Train Rails" data-subtitle="View Picture" data-caption="Now it's possibe to add an URL-Link into caption text - <a href='http://www.google.com' target='_blank'>GOOGLE</a>">
+                    <a href="<?php bloginfo('template_url' ); ?>/library/img/portafolio/inicio/02-big.png" title="2" data-subtitle="Ver imagen" data-caption="Now it's possibe to add an URL-Link into caption text - <a href='http://www.google.com' target='_blank'>GOOGLE</a>">
                         <img src="<?php bloginfo('template_url' ); ?>/library/img/portafolio/inicio/02.png" alt="Alt Image Text" />
                     </a>
                 </li>
                 
                 <!-- 3 -->
                 <li>
-                    <a href="<?php bloginfo('template_url' ); ?>/library/img/portafolio/03.jpg" title="Apple" data-subtitle="View Picture">
+                    <a href="<?php bloginfo('template_url' ); ?>/library/img/portafolio/inicio/03-big.png" title="3" data-subtitle="Ver imagen">
                         <img src="<?php bloginfo('template_url' ); ?>/library/img/portafolio/inicio/03.png" alt="Alt Image Text" />
                     </a>
                 </li>
 
                 <!-- 4 -->
                 <li>
-                    <a href="<?php bloginfo('template_url' ); ?>/library/img/portafolio/04.jpg" title="Road Trip" data-subtitle="View Picture">
+                    <a href="<?php bloginfo('template_url' ); ?>/library/img/portafolio/inicio/04-big.png" title="4" data-subtitle="Ver imagen">
                         <img src="<?php bloginfo('template_url' ); ?>/library/img/portafolio/inicio/04.png" alt="Alt Image Text" />
                     </a>
                 </li>
 
                 <!-- 5 -->
                 <li>
-                    <a href="<?php bloginfo('template_url' ); ?>/library/img/portafolio/05.jpg" title="Desert" data-subtitle="View Picture">
+                    <a href="<?php bloginfo('template_url' ); ?>/library/img/portafolio/inicio/05-big.png" title="5" data-subtitle="Ver imagen">
                         <img src="<?php bloginfo('template_url' ); ?>/library/img/portafolio/inicio/05.png" alt="Alt Image Text" />
                     </a>
                 </li>
 
                 <!-- 6 -->
                 <li>
-                    <a href="<?php bloginfo('template_url' ); ?>/library/img/portafolio/06.jpg" title="Tree" data-subtitle="View Picture">
+                    <a href="<?php bloginfo('template_url' ); ?>/library/img/portafolio/inicio/06-big.png" title="6" data-subtitle="Ver imagen">
                         <img src="<?php bloginfo('template_url' ); ?>/library/img/portafolio/inicio/06.png" alt="Alt Image Text" />
                     </a>
                 </li>
 
                 <!-- 7 -->
                 <li>
-                    <a href="<?php bloginfo('template_url' ); ?>/library/img/portafolio/01.jpg" title="MacBook" data-subtitle="View Picture">
+                    <a href="<?php bloginfo('template_url' ); ?>/library/img/portafolio/inicio/07-big.png" title="7" data-subtitle="Ver imagen">
                         <img src="<?php bloginfo('template_url' ); ?>/library/img/portafolio/inicio/07.png" alt="Alt Image Text" />
                     </a>
                 </li>
 
                 <!-- 8 -->
                 <li>
-                    <a href="<?php bloginfo('template_url' ); ?>/library/img/portafolio/02.jpg" title="Clock" data-subtitle="View Picture">
+                    <a href="<?php bloginfo('template_url' ); ?>/library/img/portafolio/inicio/08-big.png" title="8" data-subtitle="Ver imagen">
                         <img src="<?php bloginfo('template_url' ); ?>/library/img/portafolio/inicio/08.png" alt="Alt Image Text" />
                     </a>
                 </li>
 
                 <!-- 9 -->
                 <li>
-                    <a href="<?php bloginfo('template_url' ); ?>/library/img/portafolio/03.jpg" title="iPhone" data-subtitle="View Picture">
+                    <a href="<?php bloginfo('template_url' ); ?>/library/img/portafolio/inicio/09-big.png" title="9" data-subtitle="Ver imagen">
                         <img src="<?php bloginfo('template_url' ); ?>/library/img/portafolio/inicio/09.png" alt="Alt Image Text" />
                     </a>
                 </li>
 
                 <!-- 10 -->
                 <li>
-                    <a href="<?php bloginfo('template_url' ); ?>/library/img/portafolio/04.jpg" title="New York" data-subtitle="View Picture">
+                    <a href="<?php bloginfo('template_url' ); ?>/library/img/portafolio/inicio/10-big.png" title="10" data-subtitle="Ver imagen">
                         <img src="<?php bloginfo('template_url' ); ?>/library/img/portafolio/inicio/10.png" alt="Alt Image Text" />
                     </a>
                 </li>
@@ -289,7 +289,7 @@
 	</div>
 
 	<div class="container center btg">
-		<a class="bottom-serv" href="#">Galeria</a>
+		<a class="bottom-serv" href="<?php echo home_url('/proyectos') ?>">Galeria</a>
 	</div>
 
 </section>
