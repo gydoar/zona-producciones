@@ -49,7 +49,7 @@
 			<a id="logo-header" class="three columns offset-by-one" href="<?php echo home_url('/'); ?>"><img width="218" src="<?php bloginfo('template_url' ); ?>/library/img/logo.png" alt=""></a>
 		</div>
 		<div class="container right btn-cont-hedr">
-			<a class="bottom-serv" href="#">CONTACTO</a>
+			<a class="bottom-serv" href="<?php echo home_url('/#contactenos') ?>">CONTACTO</a>
 		</div>
 	</header>
 

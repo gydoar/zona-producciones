@@ -13,10 +13,23 @@ Author: the WordPress team
 }
 header{
 	background: #000000 url(library/img/header-bg.jpg) no-repeat;
-	height: 200px;
+	min-height: 200px;
 	background-position: center;
 	position: relative;
 	z-index: 1;
+	background-attachment: relative;
+	background-position: center center;
+	width: 100%;
+	background-size: 100%;
+	-webkit-background-size: 100%;
+	-o-background-size: 100%;
+	-moz-background-size: 100%;
+
+	background-size:cover;
+	-webkit-background-size:cover;
+	-o-background-size:cover;
+	-moz-background-size:cover;
+
 }
 #logo-header{
 	margin-top: 40px;
