@@ -28,7 +28,7 @@
                 <!-- 1 || Element with data-caption ||-->
                 <li>
                     <a href="<?php bloginfo('template_url' ); ?>/library/img/portafolio/01.jpg" title="Skateboard" data-subtitle="View Picture" data-caption="<strong>Bold text</strong> normal caption text">
-                        <img src="<?php bloginfo('template_url' ); ?>/library/img/portafolio/eventos-empresarial/01.png" alt="Alt Image Text" />
+                        <img src="<?php bloginfo('template_url' ); ?>/library/img/portafolio/catering/01.png" alt="Alt Image Text" />
                     </a>
                 </li>
                 

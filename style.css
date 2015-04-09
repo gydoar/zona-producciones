@@ -23,10 +23,18 @@ header{
 }
 #sec-1{
 	background: #000000 url(library/img/bg-header.jpg) no-repeat;
-	height:auto;
-	background-position: center;
+	min-height:796px;
+	background-position: center center;
 	position: relative;
 	z-index: 1;
+	width: 100%;
+	background-attachment: relative;
+	background-size: 100%;
+	 -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+
+    background-size: cover;
 }
 #logo{
 	margin-top: 120px;
@@ -224,12 +232,20 @@ ul#number li, ul#number li img{
 }
 #btl{
 	background: #F5F5F7 url(library/img/bg-btl.jpg) no-repeat;
-	height: 689px;
+	min-height: 689px;
 	background-position: center;
 	position: relative;
-	
+	background-position: center center;
 	text-align: center;
 	color: #ffffff;
+	width: 100%;
+	background-attachment: relative;
+	background-size: 100%;
+	 -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+
+    background-size: cover;
 }
 #btl h2{
 	margin-bottom: 60px;
