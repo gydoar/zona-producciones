@@ -5,7 +5,7 @@
 				<h2>SOCIALES Y RECREATIVOS</h2>
 			</div>
 			<br>
-			<p>Somos expertos en la creación de eventos personalizados, innovadores, inspirados en los deseos y necesidades  de nuestros clientes. Contamos con un equipo especializado en logística, tecnología, mercadeo y publicidad para hacer de sus eventos corporativos una experiencia de marca única, a la altura de las expectativas de los invitados. </p>
+			<p>Los deseos y necesidades de nuestros clientes son la inspiración para crear ideas innovadoras y realizar eventos personalizados. Contamos con un equipo especializado en decoración, logística, apoyos recreativos, guías certificados en actividades Indoors y Outdoors, que están al tanto de las tendencias para proporcionar a los invitados una experiencia única que los sorprenderá.</p>
 		</div>
 		<ul id="list__sub" class="container">
 			<li><img src="<?php bloginfo('template_url' ); ?>/library/img/line-icon.png" alt=""> &nbsp;Programas para adultos</li>

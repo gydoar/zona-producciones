@@ -34,6 +34,7 @@
 	<link rel="stylesheet" href="<?php bloginfo('template_url' ); ?>/library/css/owl-carousel.css">
 	<link rel="stylesheet" href="<?php bloginfo('template_url' ); ?>/library/css/owl-theme.css">
 	<link rel="stylesheet" href="<?php bloginfo('template_url' ); ?>/library/css/least.min.css">
+	<link rel="stylesheet" href="<?php bloginfo('template_url' ); ?>/library/css/meanmenu.css">
 	
 	<!--/ css adicionales -->
 
@@ -51,8 +52,6 @@
 		<div class="container right btn-cont-hedr">
 			<a class="bottom-serv" href="<?php echo home_url('/#contactenos') ?>">CONTACTO</a>
 		</div>
-	</header>
-
 		<ul id="menu-header2" class="center">
 			<li><a href="<?php echo home_url('/') ?>">INICIO</a></li>
 			<li><a href="<?php echo home_url('/eventos') ?>">EVENTOS</a>
@@ -66,3 +65,6 @@
 			<li><a href="<?php echo home_url('/btl-agencia') ?>">BTL / AGENCIA</a></li>
 			<li><a href="<?php echo home_url('/proyectos') ?>">PROYECTOS</a></li>
 		</ul>
+	</header>
+
+		

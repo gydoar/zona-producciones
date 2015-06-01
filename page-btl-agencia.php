@@ -5,17 +5,18 @@
 				<h2>BTL / AGENCIA</h2>
 			</div>
 			<br>
-			<p>Es por esto que estamos preparados para satisfacer todas sus expectativas en el espectro de la gestión de eventos corporativos. Nuestro equipo interdisciplinario está armado con un grupo de ideas que responden a cualquier presupuesto. Nos aseguramos de un buen funcionamiento de principio a fin.</p>
+			<p>Estamos preparados para satisfacer sus expectativas en la planeación y ejecución de sus eventos corporativos, nuestro equipo interdisciplinario contempla los escenarios, insumos, despliegue tecnológico y logístico necesario para el desarrollo de ideas innovadoras que puedan  responder a su presupuesto.</p>
             <p>
-            Nuestro objetivo es encargarnos de la realización total o parcial de cualquier tipo de evento a nivel nacional. Hemos participado, de manera particular y profesional, en la satisfacción completa de nuestros clientes, ofreciéndoles todas las soluciones disponibles a sus posibles demandas.
-            </p>
+            En Zona Producciones, nos aseguramos de que usted esté satisfecho de su evento de principio a fin.</p>
 		</div>
         <ul id="list__sub">
             <li><img src="<?php bloginfo('template_url' ); ?>/library/img/line-icon.png" alt=""> &nbsp;Diseño Gráfico</li>
             <li><img src="<?php bloginfo('template_url' ); ?>/library/img/line-icon.png" alt=""> &nbsp;Producción Gráfica</li>
             <li><img src="<?php bloginfo('template_url' ); ?>/library/img/line-icon.png" alt=""> &nbsp;Merchandising</li>
             <li><img src="<?php bloginfo('template_url' ); ?>/library/img/line-icon.png" alt=""> &nbsp;Fotografía</li>
-            <li><img src="<?php bloginfo('template_url' ); ?>/library/img/line-icon.png" alt=""> &nbsp;Publicidad Interior y Exterior</li>
+            <li><img src="<?php bloginfo('template_url' ); ?>/library/img/line-icon.png" alt=""> &nbsp;Publicidad Exterior</li>
+            <li><img src="<?php bloginfo('template_url' ); ?>/library/img/line-icon.png" alt=""> &nbsp;Mapping</li>
+            <li><img src="<?php bloginfo('template_url' ); ?>/library/img/line-icon.png" alt=""> &nbsp;Multimedia.</li>
         </ul>
 		<div class="container" id="caja-gray"></div>
 	</section>

@@ -55,7 +55,7 @@
     if(!isset($hasError)) {
         $emailTo = get_option('tz_email');
         if (!isset($emailTo) || ($emailTo == '') ){
-            $emailTo = get_option('admin_email');
+            $emailTo = 'info@zonaproducciones.com';
         }
         $subject = '[Contacto axemos] From '.$name;
         $body = "Nombre: $name \n\nEmail: $email \n\nTeléfino: $telefono \n\nComments: $comments";
@@ -77,7 +77,7 @@
 
 	<div class="container">
 		<div id="copi" class="six columns offset-by-five">
-			<p>"EN EL MUNDO DE <strong>LOS EVENTOS <br>NUESTRA <span>EXPERIENCIA </span></strong>ES <br>SU <strong>MEJOR GARANTIA"</strong></p>
+			<p><strong>"</strong>EN EL MUNDO DE LOS <strong>EVENTOS,</strong> <br>NUESTRA <strong><span>EXPERIENCIA </span></strong>ES <br>SU MEJOR <strong>GARANTIA"</strong></p>
 		</div>
 	</div>
 	
@@ -96,8 +96,8 @@
 <!-- Secction 2 -->
 <section id="sec-2" class="container">
 	<div id="w350">
-		<p>Nuestro objetivo es encargarnos de la realización total o parcial de cualquier tipo de<br> evento a nivel <strong>NACIONAL</strong></p>
-		<a href=""><img width="50" src="<?php bloginfo('template_url' ); ?>/library/img/circle.png" alt=""></a>
+		<p>Nos hemos especializado durante <strong>13 años</strong> en la realización de eventos a nivel nacional, ofrecemos un servicio integral a la medida de sus necesidades que incluyen la producción de sonido, iluminación, infraestructura, logística, catering, personal de servicio, desarrollo de imagen, diseño de piezas, transformación de espacios.</p>
+		<a href="#eventos"><img width="50" src="<?php bloginfo('template_url' ); ?>/library/img/circle.png" alt=""></a>
 	</div>
 </section>
 <!-- /Secction 2 -->
@@ -118,7 +118,7 @@
 					<p>- Actividades de Bienestar.</p>
 					<p>- Fiestas de fin de año.</p>
 					<br>
-					<a class="bottom-serv" href="<?php echo home_url('/eventos') ?>">Servicio</a>
+					<a class="bottom-serv" href="<?php echo home_url('/eventos') ?>">Ver más</a>
 				</div>
 			</div>
 
@@ -131,7 +131,7 @@
 					<p>- Programas para niños.</p>
 					<p>- Show´s Temáticos.</p>
 					<br>
-					<a class="bottom-serv" href="<?php echo home_url('/eventos-sociales-y-recreativos') ?>">Servicio</a>
+					<a class="bottom-serv" href="<?php echo home_url('/eventos-sociales-y-recreativos') ?>">Ver más</a>
 				</div>
 			</div>
 
@@ -139,12 +139,12 @@
 				<div class="four columns">
 					<img class="twelve columns" src="<?php bloginfo('template_url' ); ?>/library/img/eventos-3.png" alt="">
 					<h3>Montajes</h3>
-					<p>- Amplificación de sonido: voz y audio</p>
+					<p>- Amplificación de sonido: voz y audio.</p>
 					<p>- Alquiler de iluminación profesional.</p>
-					<p>- Dj con consola de sonido</p>
-					<p>- Ambientación temática </p>
+					<p>- Dj con consola de sonido.</p>
+					<p>- Ambientación temática.</p>
 					<br>
-					<a class="bottom-serv" href="<?php echo home_url('/alquiler-de-equipos') ?>">Servicio</a>
+					<a class="bottom-serv" href="<?php echo home_url('/alquiler-de-equipos') ?>">Ver más</a>
 				</div>
 			</div>
 	</div>
@@ -162,8 +162,8 @@
 	<div class="container">
 		<div class="four columns">
 			<h3>Alimentos y bebidas</h3>
-			<p>Hemos participado, de manera particular y profesional, en la satisfacción completa de nuestros clientes, ofreciéndoles todas las soluciones disponibles.</p>
-			<a class="bottom-serv" href="<?php echo home_url('/catering') ?>">Servicio</a>
+			<p>Nuestro servicio empresarial ofrece las mejores alternativas en <strong>gastronomía y bebidas.</strong> Contamos con una brigada de servicio compuesta por capitanes de servicios, barman (show de Barman), baristas especializados y meseros con experiencia certificada en el manejo de alimentos, junto a un despliegue completo de servicios asociados a la medida de sus necesidades.</p>
+			<a class="bottom-serv" href="<?php echo home_url('/catering') ?>">Ver más</a>
 		</div>
 
 		<div class="eight columns">
@@ -301,8 +301,8 @@
 		<h3>Nuestros clientes lo certifican:</h3>
 	</div>
 	<div class="w400_2">
-		<p>Saber escuchar las ideas de nuestros clientes y adaptarnos a
-		sus necesidades y presupuestos son nuestro compromisos.</p>
+		<p>Nuestro compromiso es saber escuchar a nuestros clientes y adaptarnos a sus necesidades y presupuestos.</p>
+		<p>Durante 13 años de trayectoria, se a cumplido con más de 650 eventos exitosos, que demuestran el compromiso con nuestros importantes clientes. Participamos en actividades como desayunos de trabajo para 5 a 10 personas, hasta eventos masivos en los cuales es requerido un acompañamiento profesional.</p>
 	</div>
 	<div class="container">
 		<ul class="ten columns offset-by-one" id="logos">
@@ -332,7 +332,7 @@
 <section id="contactenos">
 	<div class="container">
 		<div id="caja-cont">
-			<h2>CONTACTENOS</h2>
+			<h2>CONTÁCTENOS</h2>
 		</div>
 
 		<div id="form">

@@ -5,11 +5,11 @@
 				<h2>EVENTOS EMPRESARIALES</h2>
 			</div>
 			<br>
-			<p>Somos expertos en la creación de eventos personalizados, innovadores, inspirados en los deseos y necesidades  de nuestros clientes. Contamos con un equipo especializado en logística, tecnología, mercadeo y publicidad para hacer de sus eventos corporativos una experiencia de marca única, a la altura de las expectativas de los invitados. </p>
+			<p>Somos expertos en la creación de eventos personalizados, innovadores, inspirados en  la imagen corporativa y objetivos comerciales de nuestros clientes. Contamos con un equipo especializado en logística, tecnología, mercadeo y publicidad estratégica para hacer de sus eventos corporativos una experiencia de marca única, a la altura de las expectativas de sus clientes, socios de negocio y empleados.</p>
 		</div>
 		<ul id="list__sub">
 			<li><img src="<?php bloginfo('template_url' ); ?>/library/img/line-icon.png" alt=""> &nbsp;Olimpiadas y torneos internos</li>
-			<li><img src="<?php bloginfo('template_url' ); ?>/library/img/line-icon.png" alt=""> &nbsp;Lanzamientos y Actividades</li>
+			<li><img src="<?php bloginfo('template_url' ); ?>/library/img/line-icon.png" alt=""> &nbsp;Lanzamientos y Activaciones</li>
 			<li><img src="<?php bloginfo('template_url' ); ?>/library/img/line-icon.png" alt=""> &nbsp;Actividades de Bienestar</li>
 			<li><img src="<?php bloginfo('template_url' ); ?>/library/img/line-icon.png" alt=""> &nbsp;Fiestas de fin de año</li>
 		</ul>

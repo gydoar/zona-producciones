@@ -30,6 +30,7 @@
 <script src="http://code.jquery.com/jquery-2.1.3.js"></script>
 <script src="<?php bloginfo('template_url' ); ?>/library/js/modernizr-custom-min.js"></script>
 <script src="<?php bloginfo('template_url' ); ?>/library/js/least.min.js"></script>
+<script src="<?php bloginfo('template_url' ); ?>/library/js/jquery.meanmenu.js"></script>
 
 <!--/ script -->
 
@@ -138,6 +139,12 @@ $(document).ready(function() {
 	 
 	});
 
+</script>
+
+<script>
+jQuery(document).ready(function () {
+    $('header #menu-header2').meanmenu();
+});
 </script>
 
 <!--/ Scripts Adiconales -->

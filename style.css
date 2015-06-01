@@ -159,7 +159,7 @@ ul#menu-header2 li ul li ul{
 	box-shadow: 0px 1px 5px gray;
 }
 #w350{
-	max-width: 350px;
+	max-width: 550px;
 	margin: 0 auto;
 }
 #eventos{
@@ -212,7 +212,7 @@ ul#menu-header2 li ul li ul{
 }
 #catering h3{
 	font-size: 20px;
-	margin-top: 100px;
+	margin-top: 40px;
 	text-align: right;
 	color: #79797d;
 	font-weight: bold;
@@ -291,7 +291,7 @@ ul#number li, ul#number li img{
 }
 .w400_2{
 	padding: 10px 0px 10px 0px;
-	max-width: 600px;
+	max-width: 700px;
 	margin: 0 auto;
 	text-align: center;
 	font-size: 16px;

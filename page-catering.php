@@ -5,14 +5,11 @@
 				<h2>CATERING</h2>
 			</div>
 			<br>
+            <p>Zona Producciones proporciona la mejor selección de opciones para sus diferentes actividades corporativas como: Desayunos y almuerzos de trabajo, juntas directivas, reuniones de trabajo, cocteles, entre otros.</p>
+            <p>Diseñamos cada plato según sus preferencias gastronómicas, con una exquisita mezcla de sabores recomendados por nuestro experto chef.</p>
+            <p>Nuestro menaje y mobiliario suple todas las necesidades según la ocasión: contamos con diferentes tipos de vajilla y cristalería.</p>
+            <p>Contamos con una extraordinaria carta de cocteles, show de Barman y baristas especializados.</p>
 		</div>
-		<ul id="list__sub">
-			<li><img src="<?php bloginfo('template_url' ); ?>/library/img/line-icon.png" alt=""> &nbsp;Desayunos</li>
-			<li><img src="<?php bloginfo('template_url' ); ?>/library/img/line-icon.png" alt=""> &nbsp;Refrigerios</li>
-			<li><img src="<?php bloginfo('template_url' ); ?>/library/img/line-icon.png" alt=""> &nbsp;Almuerzos</li>
-			<li><img src="<?php bloginfo('template_url' ); ?>/library/img/line-icon.png" alt=""> &nbsp;Cenas</li>
-            <li><img src="<?php bloginfo('template_url' ); ?>/library/img/line-icon.png" alt=""> &nbsp;Menaje y Mobiliario</li>
-		</ul>
 		<div class="container" id="caja-gray"></div>
 	</section>
 
