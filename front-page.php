@@ -39,17 +39,22 @@
     if(!isset($hasError)) {
         $emailTo = get_option('tz_email');
         if (!isset($emailTo) || ($emailTo == '') ){
-            $emailTo = 'handresvegarodriguez@gmail.com';
+            $emailTo = 'info@zonaproducciones.com';
         }
-        $subject = '[Contacto axemos] From '.$name;
-        $body = "Nombre: $name \n\nEmail: $email \n\nTeléfino: $telefono \n\nComments: $comments";
+        $subject = '[Contacto Zona producciones] From '.$name;
+        $body = "Nombre: $name \n\nEmail: $email \n\nTeléf0no: $telefono \n\nMensaje: $comments";
         $headers = 'From: '.$name.' <'.$emailTo.'>' . "\r\n" . 'Reply-To: ' . $email;
 
         wp_mail($emailTo, $subject, $body, $headers);
         $emailSent = true;
+        
+        echo "<a name='contactenos'></a>";
     }
 
-} ?>
+} 
+	
+?>
+
 
 <?php get_header(); ?>
 
