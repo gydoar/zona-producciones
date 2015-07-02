@@ -1,19 +1,3 @@
-<?php
-/**
- * Contact
- *
-   Template Name:  Page inicio
- *
- * @file           template-contact.php
- * @package        StanleyWP 
- * @author         Brad Williams & Carlos Alvarez 
- * @copyright      2014 Gents Themes
- * @license        license.txt
- * @version        Release: 3.0.3
- * @link           http://codex.wordpress.org/Theme_Development#Pages_.28page.php.29
- * @since          available since Release 1.0
- */
-   ?>
 
    <?php
    if(isset($_POST['submitted'])) {
@@ -55,7 +39,7 @@
     if(!isset($hasError)) {
         $emailTo = get_option('tz_email');
         if (!isset($emailTo) || ($emailTo == '') ){
-            $emailTo = 'info@zonaproducciones.com';
+            $emailTo = 'handresvegarodriguez@gmail.com';
         }
         $subject = '[Contacto axemos] From '.$name;
         $body = "Nombre: $name \n\nEmail: $email \n\nTeléfino: $telefono \n\nComments: $comments";
@@ -77,7 +61,7 @@
 
 	<div class="container">
 		<div id="copi" class="six columns offset-by-five">
-			<p><strong>"</strong>EN EL MUNDO DE LOS <strong>EVENTOS,</strong> <br>NUESTRA <strong><span>EXPERIENCIA </span></strong>ES <br>SU MEJOR <strong>GARANTIA"</strong></p>
+			<p><?php echo of_get_option('text_banner'); ?></p>
 		</div>
 	</div>
 	
@@ -96,7 +80,7 @@
 <!-- Secction 2 -->
 <section id="sec-2" class="container">
 	<div id="w350">
-		<p>Nos hemos especializado durante <strong>13 años</strong> en la realización de eventos a nivel nacional, ofrecemos un servicio integral a la medida de sus necesidades que incluyen la producción de sonido, iluminación, infraestructura, logística, catering, personal de servicio, desarrollo de imagen, diseño de piezas, transformación de espacios.</p>
+		<p><?php echo of_get_option('text_desc'); ?></p>
 		<a href="#eventos"><img width="50" src="<?php bloginfo('template_url' ); ?>/library/img/circle.png" alt=""></a>
 	</div>
 </section>
@@ -138,7 +122,7 @@
 			<div id="galeria-1" class="left">
 				<div class="four columns">
 					<img class="twelve columns" src="<?php bloginfo('template_url' ); ?>/library/img/eventos-3.png" alt="">
-					<h3>Montajes</h3>
+					<h3>Sonido e Iluminación</h3>
 					<p>- Amplificación de sonido: voz y audio.</p>
 					<p>- Alquiler de iluminación profesional.</p>
 					<p>- Dj con consola de sonido.</p>
@@ -302,7 +286,7 @@
 	</div>
 	<div class="w400_2">
 		<p>Nuestro compromiso es saber escuchar a nuestros clientes y adaptarnos a sus necesidades y presupuestos.</p>
-		<p>Durante 13 años de trayectoria, se a cumplido con más de 650 eventos exitosos, que demuestran el compromiso con nuestros importantes clientes. Participamos en actividades como desayunos de trabajo para 5 a 10 personas, hasta eventos masivos en los cuales es requerido un acompañamiento profesional.</p>
+		<p>Durante 13 años de trayectoria, se ha cumplido con más de 650 eventos exitosos, que demuestran el compromiso con nuestros importantes clientes. Participamos en actividades como desayunos de trabajo para 5 a 10 personas, hasta eventos masivos en los cuales es requerido un acompañamiento profesional.</p>
 	</div>
 	<div class="container">
 		<ul class="ten columns offset-by-one" id="logos">

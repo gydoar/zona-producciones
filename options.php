@@ -99,11 +99,72 @@ function optionsframework_options() {
 	);
 
 	$options[] = array(
-		'name' => __( 'Example', 'theme-textdomain' ),
-		'desc' => __( 'A mini text input field.', 'theme-textdomain' ),
-		'id' => 'example',
-		'std' => 'Default',
-		'class' => 'mini',
+		'name' => __( 'Texto Banner', 'theme-textdomain' ),
+		'desc' => __( '', 'theme-textdomain' ),
+		'id' => 'text_banner',
+		'std' => '<p><strong>"</strong>EN EL MUNDO DE LOS <strong>EVENTOS,</strong> <br>NUESTRA <strong><span>EXPERIENCIA </span></strong>ES <br>SU MEJOR <strong>GARANTIA"</strong></p>',
+		'type' => 'textarea'
+	);
+
+	$options[] = array(
+		'name' => __( 'Texto Descripcion', 'theme-textdomain' ),
+		'desc' => __( '', 'theme-textdomain' ),
+		'id' => 'text_desc',
+		'std' => '<p>Nos hemos especializado durante <strong>13 años</strong> en la realización de eventos a nivel nacional, ofrecemos un servicio integral a la medida de sus necesidades que incluyen la producción de sonido, iluminación, infraestructura, logística, catering, personal de servicio, desarrollo de imagen, diseño de piezas, transformación de espacios.</p>',
+		'type' => 'textarea'
+	);
+
+
+	//FOOTER
+	$options[] = array(
+		'name' => __( 'FOOTER', 'theme-textdomain' ),
+		'type' => 'heading'
+	);
+
+	$options[] = array(
+		'name' => __( 'Dirección', 'theme-textdomain' ),
+		'desc' => __( '', 'theme-textdomain' ),
+		'id' => 'direccion',
+		'std' => 'Cra. 73 No. 53A - 29 Bogotá',
+		'type' => 'text'
+	);
+
+	$options[] = array(
+		'name' => __( 'Email', 'theme-textdomain' ),
+		'desc' => __( '', 'theme-textdomain' ),
+		'id' => 'email',
+		'std' => 'info@zonaproducciones.com',
+		'type' => 'text'
+	);
+
+	$options[] = array(
+		'name' => __( 'Teléfono', 'theme-textdomain' ),
+		'desc' => __( '', 'theme-textdomain' ),
+		'id' => 'telefono',
+		'std' => '312 5375665 - 540 0920',
+		'type' => 'text'
+	);
+
+	$options[] = array(
+		'name' => __( 'Link Youtube', 'theme-textdomain' ),
+		'desc' => __( '', 'theme-textdomain' ),
+		'id' => 'link_youtube',
+		'std' => '',
+		'type' => 'text'
+	);
+
+	$options[] = array(
+		'name' => __( 'Link Facebook', 'theme-textdomain' ),
+		'desc' => __( '', 'theme-textdomain' ),
+		'id' => 'link_facebook',
+		'std' => 'https://www.facebook.com/ZONAPRODUCCIONESYEVENTOS',
+		'type' => 'text'
+	);
+	$options[] = array(
+		'name' => __( 'Link Twitter', 'theme-textdomain' ),
+		'desc' => __( '', 'theme-textdomain' ),
+		'id' => 'link_twitter',
+		'std' => '',
 		'type' => 'text'
 	);
 

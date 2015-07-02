@@ -2,16 +2,18 @@
 <section id="text-contact">
 	<div class="container">
 		<div class="four columns offset-by-two">
-			<p><img width="44" src="<?php bloginfo('template_url' ); ?>/library/img/icon-map.png" alt="">&nbsp;&nbsp;Cra. 73 No. 53A - 29 Bogotá </p>
+			<p><img width="44" src="<?php bloginfo('template_url' ); ?>/library/img/icon-map.png" alt="">&nbsp;&nbsp;<?php echo of_get_option('direccion'); ?></p>
 
-			<p><img width="45" src="<?php bloginfo('template_url' ); ?>/library/img/icon-mail.png" alt="">&nbsp;&nbsp;<a href="mailto:info@zonaproducciones.com">info@zonaproducciones.com</a></p>
+			<p><img width="45" src="<?php bloginfo('template_url' ); ?>/library/img/icon-mail.png" alt="">&nbsp;&nbsp;<a href="mailto:<?php echo of_get_option('email'); ?>"><?php echo of_get_option('email'); ?></a></p>
 		</div>
 		<div class="five columns offset-by-one">
-			<p><img width="26" src="<?php bloginfo('template_url' ); ?>/library/img/icon-movil.png" alt="">&nbsp;&nbsp;312 5375665 - 540 0920</p>
+			<p><img width="26" src="<?php bloginfo('template_url' ); ?>/library/img/icon-movil.png" alt="">&nbsp;&nbsp;<?php echo of_get_option('telefono'); ?></p>
 			<ul id="icon-social">
-				<li><a target="_blank" href="#"><img width="122" src="<?php bloginfo('template_url' ); ?>/library/img/icon-youtube.png" alt="youtube"></a></li>
-				<li><a target="_blank" href="https://www.facebook.com/ZONAPRODUCCIONESYEVENTOS"><img width="122" src="<?php bloginfo('template_url' ); ?>/library/img/icon-facebook.png" alt="facebook"></a></li>
-				<li><a target="_blank" href="#"><img width="122" src="<?php bloginfo('template_url' ); ?>/library/img/icon-twitter.png" alt="twitter"></a></li>
+				<li><a target="_blank" href="<?php echo of_get_option('link_youtube'); ?>"><img width="122" src="<?php bloginfo('template_url' ); ?>/library/img/icon-youtube.png" alt="youtube"></a></li>
+
+				<li><a target="_blank" href="<?php echo of_get_option('link_facebook'); ?>"><img width="122" src="<?php bloginfo('template_url' ); ?>/library/img/icon-facebook.png" alt="facebook"></a></li>
+
+				<li><a target="_blank" href="<?php echo of_get_option('link_twitter'); ?>"><img width="122" src="<?php bloginfo('template_url' ); ?>/library/img/icon-twitter.png" alt="twitter"></a></li>
 			</ul>
 		</div>
 	</div>
@@ -30,7 +32,6 @@
 <script src="http://code.jquery.com/jquery-2.1.3.js"></script>
 <script src="<?php bloginfo('template_url' ); ?>/library/js/modernizr-custom-min.js"></script>
 <script src="<?php bloginfo('template_url' ); ?>/library/js/least.min.js"></script>
-<script src="<?php bloginfo('template_url' ); ?>/library/js/jquery.meanmenu.js"></script>
 
 <!--/ script -->
 
@@ -141,11 +142,6 @@ $(document).ready(function() {
 
 </script>
 
-<script>
-jQuery(document).ready(function () {
-    $('header #menu-header2').meanmenu();
-});
-</script>
 
 <!--/ Scripts Adiconales -->
 

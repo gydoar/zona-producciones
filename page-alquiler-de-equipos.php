@@ -2,24 +2,26 @@
 	<section id="sub-header" class="center">
 		<div class="container">
 			<div class="title1" class="twelve columns">
-				<h2>ALQUILER DE EQUIPOS</h2>
+				<h2>ALQUILER Y PRODUCCIÓN DE SONIDO, VIDEO E ILUMINACIÓN</h2>
 			</div>
 			<br>
 		</div>
 		<ul id="list__sub" class="container left">
 			<li><img src="<?php bloginfo('template_url' ); ?>/library/img/line-icon.png" alt=""> &nbsp;Set Ups para eventos sociales</li>
 			<li><img src="<?php bloginfo('template_url' ); ?>/library/img/line-icon.png" alt=""> &nbsp;Amplificación de sonido: voz y audio</li>
-			<li><img src="<?php bloginfo('template_url' ); ?>/library/img/line-icon.png" alt=""> &nbsp;Video</li>
+			<li><img src="<?php bloginfo('template_url' ); ?>/library/img/line-icon.png" alt=""> &nbsp;Generadores de energía</li>
 			<li><img src="<?php bloginfo('template_url' ); ?>/library/img/line-icon.png" alt=""> &nbsp;Alquiler de iluminación profesional</li>
             <li><img src="<?php bloginfo('template_url' ); ?>/library/img/line-icon.png" alt=""> &nbsp;Pantallas Led y  gran formato</li>
             <li><img src="<?php bloginfo('template_url' ); ?>/library/img/line-icon.png" alt=""> &nbsp;Máquinas de humo, humo bajo y aire frio CO2</li>
+            <li><img src="<?php bloginfo('template_url' ); ?>/library/img/line-icon.png" alt=""> &nbsp;Ambientación temática </li>
             <li><img src="<?php bloginfo('template_url' ); ?>/library/img/line-icon.png" alt=""> &nbsp;Pirotecnia controlada</li>
             <li><img src="<?php bloginfo('template_url' ); ?>/library/img/line-icon.png" alt=""> &nbsp;DJ con consola de sonido</li>
             <li><img src="<?php bloginfo('template_url' ); ?>/library/img/line-icon.png" alt=""> &nbsp;Ventury</li>
             <li><img src="<?php bloginfo('template_url' ); ?>/library/img/line-icon.png" alt=""> &nbsp;Karaoke</li>
-            <li><img src="<?php bloginfo('template_url' ); ?>/library/img/line-icon.png" alt=""> &nbsp;Generadores de energía</li>
-            <li><img src="<?php bloginfo('template_url' ); ?>/library/img/line-icon.png" alt=""> &nbsp;Iluminación: (Iluminación tipo concierto, Iluminación arquitectónica, Iluminación con cabezas robóticas y cabezas Beam, pista Led, etc.)</li>
-            <li><img src="<?php bloginfo('template_url' ); ?>/library/img/line-icon.png" alt=""> &nbsp;Ambientación temática </li>
+            <li><img src="<?php bloginfo('template_url' ); ?>/library/img/line-icon.png" alt=""> &nbsp;Video</li>
+            
+            <li><img src="<?php bloginfo('template_url' ); ?>/library/img/line-icon.png" alt=""> &nbsp;(Iluminación tipo concierto, Iluminación arquitectónica, Iluminación con cabezas robóticas y cabezas Beam, pista Led, etc.)</li>
+            
 		</ul>
 		<div class="container" id="caja-gray"></div>
 	</section>
