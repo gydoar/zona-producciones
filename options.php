@@ -114,6 +114,117 @@ function optionsframework_options() {
 		'type' => 'textarea'
 	);
 
+	//EVENTOS EMPRESARIALES
+
+	$options[] = array(
+		'name' => __( 'EMPRESARIALES', 'theme-textdomain' ),
+		'type' => 'heading'
+	);
+
+	$options[] = array(
+		'name' => __( 'Texto Descripcion', 'theme-textdomain' ),
+		'desc' => __( '', 'theme-textdomain' ),
+		'id' => 'empre_desc',
+		'std' => '',
+		'type' => 'textarea'
+	);
+
+	$options[] = array(
+		'name' => __( 'IMG 1', 'theme-textdomain' ),
+		'desc' => __( 'Tamaño de la imagen 800 x 550 px', 'theme-textdomain' ),
+		'id' => 'empre_1',
+		'std' => '',
+		'type' => 'upload'
+	);
+
+	$options[] = array(
+		'name' => __( 'IMG 2', 'theme-textdomain' ),
+		'desc' => __( 'Tamaño de la imagen 800 x 550 px', 'theme-textdomain' ),
+		'id' => 'empre_2',
+		'std' => '',
+		'type' => 'upload'
+	);
+
+	$options[] = array(
+		'name' => __( 'IMG 3', 'theme-textdomain' ),
+		'desc' => __( 'Tamaño de la imagen 800 x 550 px', 'theme-textdomain' ),
+		'id' => 'empre_3',
+		'std' => '',
+		'type' => 'upload'
+	);
+
+	$options[] = array(
+		'name' => __( 'IMG 4', 'theme-textdomain' ),
+		'desc' => __( 'Tamaño de la imagen 800 x 550 px', 'theme-textdomain' ),
+		'id' => 'empre_4',
+		'std' => '',
+		'type' => 'upload'
+	);
+
+	$options[] = array(
+		'name' => __( 'IMG 5', 'theme-textdomain' ),
+		'desc' => __( 'Tamaño de la imagen 800 x 550 px', 'theme-textdomain' ),
+		'id' => 'empre_5',
+		'std' => '',
+		'type' => 'upload'
+	);
+
+	$options[] = array(
+		'name' => __( 'IMG 6', 'theme-textdomain' ),
+		'desc' => __( 'Tamaño de la imagen 800 x 550 px', 'theme-textdomain' ),
+		'id' => 'empre_6',
+		'std' => '',
+		'type' => 'upload'
+	);
+	
+	$options[] = array(
+		'name' => __( 'IMG 7', 'theme-textdomain' ),
+		'desc' => __( 'Tamaño de la imagen 800 x 550 px', 'theme-textdomain' ),
+		'id' => 'empre_7',
+		'std' => '',
+		'type' => 'upload'
+	);
+
+	$options[] = array(
+		'name' => __( 'IMG 8', 'theme-textdomain' ),
+		'desc' => __( 'Tamaño de la imagen 800 x 550 px', 'theme-textdomain' ),
+		'id' => 'empre_8',
+		'std' => '',
+		'type' => 'upload'
+	);
+
+	$options[] = array(
+		'name' => __( 'IMG 9', 'theme-textdomain' ),
+		'desc' => __( 'Tamaño de la imagen 800 x 550 px', 'theme-textdomain' ),
+		'id' => 'empre_9',
+		'std' => '',
+		'type' => 'upload'
+	);
+
+	$options[] = array(
+		'name' => __( 'IMG 10', 'theme-textdomain' ),
+		'desc' => __( 'Tamaño de la imagen 800 x 550 px', 'theme-textdomain' ),
+		'id' => 'empre_10',
+		'std' => '',
+		'type' => 'upload'
+	);
+
+	$options[] = array(
+		'name' => __( 'IMG 11', 'theme-textdomain' ),
+		'desc' => __( 'Tamaño de la imagen 800 x 550 px', 'theme-textdomain' ),
+		'id' => 'empre_11',
+		'std' => '',
+		'type' => 'upload'
+	);
+
+	$options[] = array(
+		'name' => __( 'IMG 12', 'theme-textdomain' ),
+		'desc' => __( 'Tamaño de la imagen 800 x 550 px', 'theme-textdomain' ),
+		'id' => 'empre_12',
+		'std' => '',
+		'type' => 'upload'
+	);
+
 
 	//FOOTER
 	$options[] = array(

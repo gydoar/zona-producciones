@@ -32,14 +32,14 @@
             <ul class="least-gallery container">
                 <!-- 1 || Element with data-caption ||-->
                 <li>
-                    <a href="<?php bloginfo('template_url' ); ?>/library/img/portafolio/btl/01-big.png" title="1" data-subtitle="Ver imagen" data-caption="<strong>Bold text</strong> normal caption text">
+                    <a href="<?php bloginfo('template_url' ); ?>/library/img/portafolio/btl/01-big.png" title="1" data-subtitle="Ver imagen">
                         <img src="<?php bloginfo('template_url' ); ?>/library/img/portafolio/btl/01.png" alt="Alt Image Text" />
                     </a>
                 </li>
                 
                 <!-- 2 || Element with data-caption as href-attribute ||-->
                 <li>
-                    <a href="<?php bloginfo('template_url' ); ?>/library/img/portafolio/btl/02-big.png" title="2" data-subtitle="Ver imagen" data-caption="Now it's possibe to add an URL-Link into caption text - <a href='http://www.google.com' target='_blank'>GOOGLE</a>">
+                    <a href="<?php bloginfo('template_url' ); ?>/library/img/portafolio/btl/02-big.png" title="2" data-subtitle="Ver imagen">
                         <img src="<?php bloginfo('template_url' ); ?>/library/img/portafolio/btl/02.png" alt="Alt Image Text" />
                     </a>
                 </li>

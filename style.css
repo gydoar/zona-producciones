@@ -404,9 +404,13 @@ a.bottom-port:hover{
 	padding-bottom: 10px;
 }
 ul#list__sub li{
+	list-style-image: url(library/img/line-icon.png);
+}
+ul#list__sub li{
 	display: inline-block;
 	margin: 0px 20px;
 	padding: 5px 0px;
+	
 }
 ul#list__sub li, ul#list__sub li img{
 	vertical-align: middle;
